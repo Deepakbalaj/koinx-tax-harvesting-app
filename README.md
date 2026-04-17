@@ -71,7 +71,7 @@ npm run dev
 
 
 ## 🌐 Live Demo
-Current demo is running locally at http://localhost:5173/
+Current demo is running : https://deepakbalaj.github.io/koinx-tax-harvesting-app/
 
 
 ## 🧠 Assumptions
