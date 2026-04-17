@@ -1,0 +1,87 @@
+export const capitalGainsResponse = {
+  capitalGains: {
+    stcg: {
+      profits: 125000,
+      losses: 18000,
+    },
+    ltcg: {
+      profits: 94000,
+      losses: 21000,
+    },
+  },
+};
+
+export const holdingsResponse = {
+  holdings: [
+    {
+      id: "btc",
+      asset: "Bitcoin",
+      symbol: "BTC",
+      holdings: 0.42,
+      avgBuyPrice: 5218000,
+      currentPrice: 4985000,
+      stGain: -7250,
+      ltGain: -25430,
+    },
+    {
+      id: "eth",
+      asset: "Ethereum",
+      symbol: "ETH",
+      holdings: 3.8,
+      avgBuyPrice: 252000,
+      currentPrice: 238400,
+      stGain: 15500,
+      ltGain: -31800,
+    },
+    {
+      id: "sol",
+      asset: "Solana",
+      symbol: "SOL",
+      holdings: 18,
+      avgBuyPrice: 11600,
+      currentPrice: 13620,
+      stGain: 21900,
+      ltGain: 0,
+    },
+    {
+      id: "arb",
+      asset: "Arbitrum",
+      symbol: "ARB",
+      holdings: 2400,
+      avgBuyPrice: 116,
+      currentPrice: 82,
+      stGain: -81600,
+      ltGain: 0,
+    },
+    {
+      id: "matic",
+      asset: "Polygon",
+      symbol: "POL",
+      holdings: 3600,
+      avgBuyPrice: 104,
+      currentPrice: 88,
+      stGain: -24400,
+      ltGain: -33200,
+    },
+    {
+      id: "link",
+      asset: "Chainlink",
+      symbol: "LINK",
+      holdings: 145,
+      avgBuyPrice: 1480,
+      currentPrice: 1640,
+      stGain: 6900,
+      ltGain: 16300,
+    },
+    {
+      id: "avax",
+      asset: "Avalanche",
+      symbol: "AVAX",
+      holdings: 96,
+      avgBuyPrice: 3620,
+      currentPrice: 2860,
+      stGain: -18400,
+      ltGain: -54600,
+    },
+  ],
+};

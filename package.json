@@ -1,0 +1,22 @@
+{
+  "name": "koinx-tax-loss-harvesting",
+  "version": "1.0.0",
+  "private": true,
+  "description": "React assignment app for KoinX tax loss harvesting",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "start": "vite"
+  },
+  "dependencies": {
+    "react": "^19.2.5",
+    "react-dom": "^19.2.5",
+    "vite": "^8.0.8"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.2.2",
+    "@vitejs/plugin-react": "^6.0.1",
+    "tailwindcss": "^4.2.2"
+  }
+}

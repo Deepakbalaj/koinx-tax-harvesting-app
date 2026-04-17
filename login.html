@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin Login | Deepak Balaji S</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Source+Sans+3:wght@400;600;700&display=swap"
+    rel="stylesheet"
+  >
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="admin-body">
+  <div class="ambient ambient-one" aria-hidden="true"></div>
+  <div class="ambient ambient-two" aria-hidden="true"></div>
+  <div class="page-shell">
+    <header class="site-header">
+      <a class="brand" href="index.html">Deepak Balaji S</a>
+      <nav class="site-nav" aria-label="Login navigation">
+        <a href="index.html">Portfolio</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="section auth-shell">
+        <div class="section-heading">
+          <p class="eyebrow">Protected Access</p>
+          <h1>Admin login</h1>
+        </div>
+        <p class="hero-text">Enter the admin password to view contact messages.</p>
+        <form class="contact-form auth-form" id="login-form">
+          <label>
+            <span>Password</span>
+            <input type="password" name="password" placeholder="Enter admin password" required>
+          </label>
+          <div class="form-actions">
+            <button class="button primary" type="submit">Login</button>
+            <p class="form-status" id="login-status" aria-live="polite"></p>
+          </div>
+        </form>
+      </section>
+    </main>
+  </div>
+
+  <script src="login.js"></script>
+</body>
+</html>

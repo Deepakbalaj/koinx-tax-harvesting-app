@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Deepak Balaji S | Admin Messages</title>
+  <meta name="description" content="Admin panel for viewing portfolio contact messages.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Source+Sans+3:wght@400;600;700&display=swap"
+    rel="stylesheet"
+  >
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="admin-body">
+  <div class="ambient ambient-one" aria-hidden="true"></div>
+  <div class="ambient ambient-two" aria-hidden="true"></div>
+  <div class="page-shell">
+    <header class="site-header">
+      <a class="brand" href="index.html">Deepak Balaji S</a>
+      <nav class="site-nav" aria-label="Admin navigation">
+        <a href="index.html">Portfolio</a>
+        <a href="#messages">Messages</a>
+        <button class="button secondary nav-button" id="logout-button" type="button">Logout</button>
+      </nav>
+    </header>
+
+    <main>
+      <section class="section admin-hero">
+        <div class="section-heading">
+          <p class="eyebrow">Admin Panel</p>
+          <h1>Contact messages dashboard.</h1>
+        </div>
+        <p class="hero-text">
+          View messages submitted from the portfolio contact form. Newest messages appear first.
+        </p>
+      </section>
+
+      <section class="section" id="messages">
+        <div class="section-heading">
+          <p class="eyebrow">Inbox</p>
+          <h2>Recent submissions</h2>
+        </div>
+        <div class="admin-toolbar">
+          <button class="button primary" id="refresh-messages" type="button">Refresh Messages</button>
+          <p class="form-status" id="admin-status" aria-live="polite"></p>
+        </div>
+        <div class="messages-list" id="messages-list"></div>
+      </section>
+    </main>
+  </div>
+
+  <script src="admin.js"></script>
+</body>
+</html>

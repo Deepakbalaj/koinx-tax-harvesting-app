@@ -1,0 +1,164 @@
+{
+  "financialYears": [
+    {
+      "id": "fy-2024-25",
+      "label": "FY 2024-25",
+      "taxRates": {
+        "short": 0.3,
+        "long": 0.2
+      },
+      "capitalGains": {
+        "short": 12485,
+        "long": 8240
+      },
+      "coins": [
+        {
+          "id": "btc",
+          "name": "Bitcoin",
+          "symbol": "BTC",
+          "term": "long",
+          "quantity": 0.42,
+          "buyPrice": 52120,
+          "currentPrice": 66410,
+          "color": "#f59e0b",
+          "lastTrade": "Bought 412 days ago"
+        },
+        {
+          "id": "eth",
+          "name": "Ethereum",
+          "symbol": "ETH",
+          "term": "short",
+          "quantity": 3.1,
+          "buyPrice": 2820,
+          "currentPrice": 3195,
+          "color": "#6366f1",
+          "lastTrade": "Bought 103 days ago"
+        },
+        {
+          "id": "arb",
+          "name": "Arbitrum",
+          "symbol": "ARB",
+          "term": "short",
+          "quantity": 2400,
+          "buyPrice": 1.42,
+          "currentPrice": 0.96,
+          "color": "#0f172a",
+          "lastTrade": "Bought 44 days ago"
+        },
+        {
+          "id": "uni",
+          "name": "Uniswap",
+          "symbol": "UNI",
+          "term": "short",
+          "quantity": 220,
+          "buyPrice": 10.85,
+          "currentPrice": 7.9,
+          "color": "#ec4899",
+          "lastTrade": "Bought 61 days ago"
+        },
+        {
+          "id": "avax",
+          "name": "Avalanche",
+          "symbol": "AVAX",
+          "term": "long",
+          "quantity": 105,
+          "buyPrice": 47.6,
+          "currentPrice": 31.8,
+          "color": "#ef4444",
+          "lastTrade": "Bought 266 days ago"
+        },
+        {
+          "id": "near",
+          "name": "NEAR Protocol",
+          "symbol": "NEAR",
+          "term": "long",
+          "quantity": 540,
+          "buyPrice": 6.1,
+          "currentPrice": 4.85,
+          "color": "#0f766e",
+          "lastTrade": "Bought 319 days ago"
+        },
+        {
+          "id": "sol",
+          "name": "Solana",
+          "symbol": "SOL",
+          "term": "short",
+          "quantity": 40,
+          "buyPrice": 131,
+          "currentPrice": 156,
+          "color": "#7c3aed",
+          "lastTrade": "Bought 80 days ago"
+        }
+      ]
+    },
+    {
+      "id": "fy-2023-24",
+      "label": "FY 2023-24",
+      "taxRates": {
+        "short": 0.3,
+        "long": 0.2
+      },
+      "capitalGains": {
+        "short": 9430,
+        "long": 10260
+      },
+      "coins": [
+        {
+          "id": "btc2",
+          "name": "Bitcoin",
+          "symbol": "BTC",
+          "term": "long",
+          "quantity": 0.31,
+          "buyPrice": 44200,
+          "currentPrice": 59650,
+          "color": "#f59e0b",
+          "lastTrade": "Bought 388 days ago"
+        },
+        {
+          "id": "matic2",
+          "name": "Polygon",
+          "symbol": "MATIC",
+          "term": "short",
+          "quantity": 1800,
+          "buyPrice": 1.18,
+          "currentPrice": 0.84,
+          "color": "#8b5cf6",
+          "lastTrade": "Bought 72 days ago"
+        },
+        {
+          "id": "link2",
+          "name": "Chainlink",
+          "symbol": "LINK",
+          "term": "long",
+          "quantity": 145,
+          "buyPrice": 18.7,
+          "currentPrice": 14.1,
+          "color": "#2563eb",
+          "lastTrade": "Bought 220 days ago"
+        },
+        {
+          "id": "inj2",
+          "name": "Injective",
+          "symbol": "INJ",
+          "term": "short",
+          "quantity": 58,
+          "buyPrice": 31.3,
+          "currentPrice": 36.5,
+          "color": "#0ea5e9",
+          "lastTrade": "Bought 46 days ago"
+        },
+        {
+          "id": "dot2",
+          "name": "Polkadot",
+          "symbol": "DOT",
+          "term": "long",
+          "quantity": 320,
+          "buyPrice": 8.4,
+          "currentPrice": 6.55,
+          "color": "#db2777",
+          "lastTrade": "Bought 287 days ago"
+        }
+      ]
+    }
+  ]
+}
