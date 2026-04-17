@@ -43,7 +43,39 @@ A responsive React application for the KoinX frontend internship assignment. The
 - `src/components` - reusable React components
 - `src/data` - mock API payloads
 - `src/utils` - harvesting calculation helpers
+# Tax Loss Harvesting App
 
-## Screenshots
+## 🚀 Overview
 
-- Add local screenshots here after running the app in your browser if you want to include them in a submission repo.
+A React-based application that helps users optimize taxes by harvesting losses from crypto assets.
+
+## 🛠️ Tech Stack
+
+* React.js
+* Tailwind CSS
+* Mock APIs
+
+## 📊 Features
+
+* Pre & Post Capital Gains Calculation
+* Dynamic Holdings Table
+* Real-time Updates on Selection
+* Tax Savings Indicator
+
+## ⚙️ Setup Instructions
+
+```bash
+npm install
+npm run dev
+```
+
+
+## 🌐 Live Demo
+Current demo is running locally at http://localhost:5173/
+
+
+## 🧠 Assumptions
+
+* Mock API used
+* Static data for demonstration
+
